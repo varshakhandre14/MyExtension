@@ -1,0 +1,22 @@
+{
+  "manifest_version": 2,
+
+  "name": "TAC",
+  "description": "The TAC in your browser",
+  "version": "1.0",
+  
+  "browser_action": {
+   "default_icon": "Image/tac-logo.png",
+   "default_popup": "popup.html"
+  },
+  "icons": { "16": "Image/tac-logo.png",
+    "48": "Image/tac-logo.png",
+   "128": "Image/tac-logo.png" 
+  },
+  "web_accessible_resources": [
+    "popup.js"
+    ],
+  "permissions": [
+   "activeTab","tabs"
+   ]
+}

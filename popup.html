@@ -1,0 +1,82 @@
+<!doctype html>
+<html>
+  <head>
+    <title>TAC</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="popup.js"></script>
+    <link rel="stylesheet" href="popup.css" type="text/css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+    
+  </head>
+  <body>
+    <div id="app-content">
+      <div class="app">
+        <div class="app-header app-header--back-drop">
+          <div class="app-header__contents">
+            <div class="app-header__logo-container">
+              <img class="app-header__metafox-logo app-header__metafox-logo--horizontal" height="30" src="Image/tac-logo.png">
+              <img class="app-header__metafox-logo app-header__metafox-logo--icon" height="42" width="48" src="Image/tac-logo.png">
+            </div>
+            <div class="app-header__account-menu-container">
+              <div class="account-menu__icon" id="settingdropdown" title="Settings">
+                <!-- <div class="identicon" style="height: 32px; width: 32px; border-radius: 16px;">
+                  <div style="border-radius: 50px; overflow: hidden; padding: 0px; margin: 0px; width: 32px; height: 32px; display: inline-block;">
+                    <img src="http://backgrounddownload.com/wp-content/uploads/2018/09/settings-icon-transparent-background-3.jpg" width="34px" height="34px" style="object-fit: cover">
+                  </div>
+                </div> -->
+
+                <div class="fa fa-bars menu-bar__sidebar-button" id="sidebarmenu"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class=".menu-droppo-container network-droppo" style="position: absolute; top: 58px; width: 309px; z-index: 55;"> 
+          
+        <div class="menu-droppo" id="settingspopup" style="display:none;border-radius: 4px; padding: 18px 8px; background: rgba(201, 223, 138, 0.8); color: black; box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 2px 2px;">
+          <div class="network-dropdown-header">
+            <div class="network-dropdown-title">Settings</div>
+            <div class="network-dropdown-divider"></div>
+          </div>  
+        
+          <div class="menu__item menu__item  menu__item--clickable" id="clk_logout">
+            
+          <div class="menu__item__icon">
+              <i class="fa fa-sign-out" aria-hidden="true"></i>
+             </div>
+          <div class="menu__item__text">Logout</div>
+       
+          </div>
+        </div>
+      </div>
+
+        <div class="main-container-wrapper">
+          <div class="main-container">
+            <div class="account-and-transaction-details">
+              <div class="transaction-view">
+                <div class="transaction-view__balance-wrapper">
+                  <div class="transaction-view-balance">
+                    <div class="transaction-view-balance__balance-container">
+                      <!--<img class="balance-icon" style="height:50px; width:50px;" src="https://www.cellintel.io/img/supernode/elements.png">-->
+                      <div>
+                        <div class title="" style="display: inline;">
+                         
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
